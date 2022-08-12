@@ -6,15 +6,15 @@
 #include "InternetTime.h"
 
 // LED strip constants
-#define LED_PIN   2 // D4 pin on the Wemos D1 Mini
+#define LED_PIN   13 // D7 pin on the NodeMCU
 #define NUM_LEDS  60
 CRGB leds[NUM_LEDS];
 
 //************************************************************************
 // Your config below!
 //************************************************************************
-const char* WIFI_NAME     = "Your WIFI Name";     // SSID of local network
-const char* WIFI_PASSWORD = "Your WIFI Password"; // Password on network
+const char* WIFI_NAME     = "tymishop";     // SSID of local network
+const char* WIFI_PASSWORD = "15581822425"; // Password on network
 long utcOffset = 0;                               // Hour adjustment from the found Internet Time
 //************************************************************************
 bool timeFound = false;
